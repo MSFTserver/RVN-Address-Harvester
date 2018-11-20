@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "socket.io-client": "^2.1.1"
+  },
+  "name": "RVN-Address-Harvester",
+  "version": "0.0.1",
+  "description": "a node.js package to parse addresses from the rvn blockchain",
+  "main": "harvester-tx.js",
+  "repository": "https://github.com/MSFTserver/RVN-Address-Harvester",
+  "author": "MSFTserver <msftserver@gmail.com>",
+  "license": "MIT"
+}
