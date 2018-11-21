@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "socket.io-client": "^2.1.1"
+    "socket.io-client": "^2.1.1",
+    "underscore-node": "^0.1.2"
   },
   "name": "RVN-Address-Harvester",
   "version": "0.0.1",

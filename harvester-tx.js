@@ -3,6 +3,7 @@ let socketClient = require('socket.io-client');
 console.log('MSFTservers Raven Address Harvester!');
 console.log('-------------------------');
 console.log('Initiated!');
+console.log('waiting for tx to come in...')
 let eventToListenTo = 'raven/tx';
 let room = 'raven';
 let socket = socketClient('https://ravencoin.network/');
@@ -35,7 +36,7 @@ socket.on(eventToListenTo, function(data) {
     .replace(/]/g, '')
     .replace(/\[/g, '')
     .replace(/,/g, '\n');
-    fs.appendFile('harvested.txt', '\n'+ str, function(err){
+    fs.appendFile('harvested-tx.txt', '\n'+ str, function(err){
     if(err) {
         console.log(err)
     } else {

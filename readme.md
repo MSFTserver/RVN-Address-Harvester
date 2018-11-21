@@ -9,4 +9,6 @@
 
 3) start the script with `node harvester-tx.js` in this packages root directory
 
-### harvester-tx.js - this harvests addresses coming through live transactions!
+### harvester-tx.js - harvests addresses coming through live transactions!
+
+### harvester-block.js - harvests addresses coming through live blocks!
