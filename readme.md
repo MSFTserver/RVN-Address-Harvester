@@ -12,3 +12,5 @@
 ### harvester-tx.js - harvests addresses coming through live transactions!
 
 ### harvester-block.js - harvests addresses coming through live blocks!
+
+### beginning-of-time.js - harvests every address starting from block 0!
