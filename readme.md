@@ -15,6 +15,6 @@
 
 ### harvester-block-defined.js - harvests addresses from pre-defined block!
 
-### harvester-tx-defined.js - harvests addresses from pre-defines txid!
+### harvester-tx-defined.js - harvests addresses from pre-defined txid!
 
 ### beginning-of-time.js - harvests every address starting from block 0!
