@@ -13,4 +13,8 @@
 
 ### harvester-block.js - harvests addresses coming through live blocks!
 
+### harvester-block-defined.js - harvests addresses from pre-defined block!
+
+### harvester-tx-defined.js - harvests addresses from pre-defines txid!
+
 ### beginning-of-time.js - harvests every address starting from block 0!
